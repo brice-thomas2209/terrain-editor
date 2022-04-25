@@ -31,6 +31,7 @@
     "lint:fix": "tsc --noEmit && eslint --fix src/**/*.ts{,x}",
     "format": "prettier --write src/**/*.ts{,x}"
   },
+  "homepage": "/terrain-editor",
   "eslintConfig": {
     "extends": [
       "react-app",

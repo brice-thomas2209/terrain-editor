@@ -2,6 +2,7 @@
 
 Attempt at creating a terrain editor with three.js
 
+[Working example on github.io](https://brice-thomas2209.github.io/terrain-editor/)
 
 ## Getting Started
 
@@ -12,16 +13,16 @@ Attempt at creating a terrain editor with three.js
 
 ### Executing program
 
-### `npm start`
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `npm run lint`
+`npm run lint`
 
 Runs the linter for the project.
 
-### `npm run format`
+`npm run format`
 
 Runs prettier for the project.
 
@@ -33,5 +34,6 @@ Runs prettier for the project.
 
 - [x] Add a gui to change colour of the terrain
 - [x] Implement way to remove terrain
+- [x] Host working example on github.io
 - [ ] Create UI for seeing the cursor (maybe red circle)
 - [ ] Do UI in react as opposed to using Dat Gui

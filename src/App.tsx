@@ -4,6 +4,10 @@ import { world, initWorld } from './classes/WorldInstance';
 import { createClickListener } from './classes/ClickListener';
 import { initGui } from './classes/DatGuiInstance';
 
+function SnackBar({ message }: { message: string }) {
+  return <div className="snackbar">{message}</div>;
+}
+
 function App() {
   useEffect(() => {
     if (!world) {
@@ -18,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <main id="three" />
+      <SnackBar message={'Click to add terrain to the canvas'} />
     </div>
   );
 }
